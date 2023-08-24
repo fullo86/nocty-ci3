@@ -1,0 +1,32 @@
+/** ADD YOUR AWESOME CODES HERE **/
+
+body {
+    overflow-x: hidden;
+}
+
+.service-wrap .table td, .service-wrap .table th {
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+.dropdown-menu > li > a {
+    background-color: transparent !important;
+    color: #111111 !important;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+@media(max-width: 767px) {
+    .owl-next i, .owl-prev i {
+        background-color: transparent;
+        color: #ffffff;
+        padding: 6px 10px;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+    }
+}
